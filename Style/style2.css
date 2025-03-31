@@ -190,14 +190,14 @@ body{
 }
 .Fondo_Principal2{
     font-size: 1.8vw;
-    margin: -1.6vw 0vw 0vw 39vw;
+    margin: -0.9vw 0vw 0vw 39vw;
     position: fixed;
     
 
 } 
 .Fondo_Principal3{
     font-size: 1.2vw;
-    margin: -2vw 0vw 0vw 26vw;
+    margin: -1.5vw 0vw 0vw 26vw;
     font-weight: 500;
     position: fixed;
 
@@ -205,27 +205,70 @@ body{
 .Fondo_Principal4{
     font-size: 0.85vw;
     font-weight: 700;
-    margin: -2vw 0vw 0vw 0vw;
+    margin: -1.4vw 0vw 0vw 0vw;
     position: fixed;
 
 
 }
+
 .Fondo_Principal5-1{
     border: 0.1vw solid black;
-    border-radius: 8px;
+    border-radius: 1.5vw;
     width: 84vw;
-    height: 3vw;
-    margin: 0.5vw 0vw 0vw 1.7vw;
+    height: 3.3vw;
+    margin: -2.5vw 0vw 0vw 1.7vw;
+    position: fixed;
 
 }
+
+
+
 .Fondo_Principal6-1{
     border: 0.1vw solid black;
-    border-radius: 8px;
+    border-radius: 1.5vw;
     width: 84vw;
-    height: 3vw;
-    margin: -1vw 0vw 0vw 1.7vw;
+    height: 3.3vw;
+    margin: -2.1vw 0vw 0vw 1.7vw;
+    position: fixed;
+}
+.Fondo_Principal7-1{
+        border: 0.1vw solid black;
+        border-radius: 1.5vw;
+        width: 84vw;
+        height: 3.3vw;
+        margin: -1.5vw 0vw 0vw 1.7vw;
+        position: fixed;
+    
+}
+.Fondo_Principal8-1{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -0.9vw 0vw 0vw 1.7vw;
+    position: fixed;
 
 }
+.Fondo_Principal9-1{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: -0.3vw 0vw 0vw 1.7vw;
+    position: fixed;
+
+}
+.Fondo_Principal10-1{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    height: 3.3vw;
+    margin: 0.6vw 0vw 0vw 1.7vw;
+    position: fixed;
+
+}
+
+
 .letras1{
     font-size: 1.2vw;
     margin: -0.8vw 0vw 0vw 5.8vw;
@@ -274,6 +317,7 @@ a{
     margin: 1.5vw 0vw 0vw -6vw;
     position: fixed;
 }
+
 
 
 
