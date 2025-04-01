@@ -4,39 +4,80 @@ body{
 .Principal{background-color: rgb(255, 255, 255);
 
 }
-.img-1{ margin: 0vw 0vw 0vw 96.5vw;
+.img-1{ margin: -1.8vw 0vw 0vw 94.5vw;
     position: fixed;
-    width: 3vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
 
 }
 .img-2{
-    margin: 1vw 0vw 0vw 0.2vw;
+    margin: -0.5vw 0vw 0vw 0.2vw;
     padding: 0;
+    width: 2.5vw;
+    height: 2.5vw;
     
 
 }
 .img-3{
-    margin: 1vw 0vw 0vw 91.5vw; 
+    margin: 0.5vw 0vw 0vw 88.2vw; 
     position: fixed;
+    width: 1.5vw;
+    height: 1.5vw;
 
 }
 .img-4{
-    margin: 1vw 0vw 0vw 93vw;
+    margin: 0.5vw 0vw 0vw 90.2vw;
     position: fixed;
+    width: 1.5vw;
+    height: 1.5vw;
 
 }
-.img-5{ width: 1.5vw;
-    height: 1.5vw;
+.img-5{ width: 3vw;
+    height: 3vw;
      position: fixed;
-     margin: 1vw 0vw 0vw 50vw;
+     margin: -1.3vw 0vw 0vw 46vw;
 
 
 }
 .menu{
     border-bottom: 0.5ch solid black;
     width: 1000vw;
-    margin:0;
+    margin:2vw 0vw 0vw 0vw;
     position: fixed;
     margin-left: -0.5vw;
 }
+.gris{
+    background-color: rgb(156, 146, 146);
+    width: 60vw;
+    height: 35vw;
+    border-radius: 2vw;
+
+    position: fixed;
+    margin: 12vw  0vw 0vw 20vw;
+
+}
+.naranja{ background-color: orange;
+    position: fixed;
+    margin: 6vw  0vw 0vw 20vw;
+    width: 60vw;
+    height: 5vw;
+    border-radius: 2vw;
+
+}
+.q1{
+    font-size: 2.5vw;
+    width: 5vw;
+    margin: 0.7vw 0vw 0vw 8vw;
+}
+.j1{font-size: 3.8vw;
+    width: 5vw;
+    margin: 0vw 0vw 0vw 6.2vw;
+
+}
+.l1{
+    font-size: 2vw;
+    
+    margin: 2vw 0vw 0vw 15vw;
+
+}
+.Blaquito{}
