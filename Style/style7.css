@@ -47,7 +47,7 @@ body{
     margin-left: -0.5vw;
 }
 .gris{
-    background-color: #C4C4C4C9;
+    background-color: #ffffffc9;
     width: 60vw;
     height: 35vw;
     border-radius: 2vw;
@@ -56,7 +56,7 @@ body{
     margin: 14vw  0vw 0vw 20vw;
 
 }
-.naranja{ background-color: #F5AB66;
+.naranja{ background-color: #A7B5C4;
     position: fixed;
     margin: 6vw  0vw 0vw 20vw;
     width: 60vw;
@@ -114,6 +114,9 @@ body{
     
 
 }
+.CuadroAzul{
+    background-color:#3362AE ;
+}
 .Fondo_Principal10-1:hover {
     background-color: #ca7d24;
   }
@@ -127,4 +130,7 @@ body{
 @font-face {
     font-family:"hola";
     src: url(../fonts/inria-sans.bold.ttf);
+}
+pre{
+    font-family: "hola"
 }
