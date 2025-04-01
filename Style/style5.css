@@ -1,0 +1,42 @@
+body{
+    background-color: white
+}
+.Principal{background-color: rgb(255, 255, 255);
+
+}
+.img-1{ margin: 0vw 0vw 0vw 96.5vw;
+    position: fixed;
+    width: 3vw;
+    height: 3vw;
+
+}
+.img-2{
+    margin: 1vw 0vw 0vw 0.2vw;
+    padding: 0;
+    
+
+}
+.img-3{
+    margin: 1vw 0vw 0vw 91.5vw; 
+    position: fixed;
+
+}
+.img-4{
+    margin: 1vw 0vw 0vw 93vw;
+    position: fixed;
+
+}
+.img-5{ width: 1.5vw;
+    height: 1.5vw;
+     position: fixed;
+     margin: 1vw 0vw 0vw 50vw;
+
+
+}
+.menu{
+    border-bottom: 0.5ch solid black;
+    width: 1000vw;
+    margin:0;
+    position: fixed;
+    margin-left: -0.5vw;
+}

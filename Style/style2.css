@@ -11,17 +11,7 @@
         }
     
   }
-@keyframes CambiarPrincipal{
-     0% {background-color: black;
-        background-image: url('../Images\ /pexels-pixabay-159400@2x1.png');}
-    100%{
-        background-color: white;
 
-        
-    }
-
-    
-}
 
 @keyframes aparecer {
     0% {
@@ -87,7 +77,8 @@ body{
 
 }
 .Logo2{
-    width: 3vw;
+    width: 9vw;
+    height: 9vw;
     margin: 11vw 0vw 0vw -9vw;
     animation: logo2 5s;
     animation-iteration-count: 1;
@@ -119,7 +110,7 @@ body{
 
 }
 .Tienes2{
-    font-size: 45px;
+    font-size: 1vw;
 }
 .Bienvenido2 p{
     text-align: center;
@@ -137,7 +128,7 @@ body{
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(11,1fr);
     opacity: 0;
-    animation: aparecer 4.5s 3s forwards;
+    animation: aparecer 8s 3s forwards;
 
     
 }
@@ -390,9 +381,33 @@ a{
     margin: 1.2vw 0vw 0vw 0vw;
 
 }
-.circlo{
-    position: fixed
+
+.p1{
+    position: fixed;
+    width: 3vw;
+    margin: -1vw 0vw 0vw 0vw;
 }
+p2{
+    position: fixed;
+    width: 3vw;
+    margin: -1vw 0vw 0vw 0vw;
+}
+p3{
+    position: fixed;
+    width: 3vw;
+    margin: -1vw 0vw 0vw 0vw;
+}
+p4{
+    position: fixed;
+    width: 3vw;
+    margin: -1vw 0vw 0vw 0vw;
+}
+p5{
+    position: fixed;
+    width: 3vw;
+    margin: -1vw 0vw 0vw 0vw;
+}
+
 
 
 
