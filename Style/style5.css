@@ -124,6 +124,13 @@ body{
     position: fixed;
     margin: 0.2vw 0vw 0vw 1.5vw;
 }
+.sonido{
+    width: 15vw;
+    height: 15vw;
+    margin: 27vw 0vw 0vw 81vw;
+    position: fixed;
+    transform: rotate(-30deg);
+}
 @font-face {
     font-family:"hola";
     src: url(../fonts/inria-sans.bold.ttf);
