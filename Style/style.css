@@ -4,7 +4,12 @@ font-face {
 }
 @font-face {
     font-family: "Light";
-    src: url(../Fonts/MyriadPro-Light.otf);
+    src: url(../fonts/myriad-pro-light.otf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../fonts/inria-sans.bold.ttf);
+
 }
 @keyframes logo {
     0%{opacity: 1;}
@@ -40,7 +45,7 @@ body{
     overflow: hidden;
 }
 .Logo1{
-    width: 22vh;
+    width: 12vh;
     margin: 0px 0px 0px 14vw;
     animation: logo 5s;
     animation-iteration-count: 2;

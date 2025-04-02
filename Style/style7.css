@@ -53,22 +53,23 @@ body{
     border-radius: 2vw;
 
     position: fixed;
-    margin: 14vw  0vw 0vw 20vw;
+    margin: 34vw  0vw 0vw 20vw;
 
 }
 .naranja{ background-color: #A7B5C4;
     position: fixed;
-    margin: 6vw  0vw 0vw 20vw;
-    width: 60vw;
-    height: 5vw;
-    border-radius: 2vw;
+    margin: 06vw  0vw 0vw -0.48vw;
+    min-width: 100%;
+
+    height: 25vw;
+    
 
 }
 .q1{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     font-family: "hola";
     width: 5vw;
-    margin: 0.7vw 0vw 0vw 8vw;
+    margin: 3vw 0vw 0vw 17.5vw;
 }
 .j1{font-size: 5vw;
     font-family: "hola";
@@ -85,11 +86,11 @@ body{
 }
 .Blanquito{
     background-color: #FFF6F6;
-    width: 38vw;
-    height: 20vw;
+    width: 78vw;
+    height: 6vw;
     position: fixed;
-    border-radius: 2vw;
-    margin: 24vw 0vw 0vw 30vw;
+    
+    margin: 18vw 0vw 0vw 10vw;
 }
 .Fondo_Principal10-1{
     border: 0.1vw solid black;
@@ -116,6 +117,10 @@ body{
 }
 .CuadroAzul{
     background-color:#3362AE ;
+    position: fixed;
+    margin: 18vw 0vw 0vw 78vw;
+    width: 12vw;
+    height: 6vw;
 }
 .Fondo_Principal10-1:hover {
     background-color: #ca7d24;
@@ -133,4 +138,39 @@ body{
 }
 pre{
     font-family: "hola"
+}
+.k1{
+    margin: 1.8vw 0vw 0vw -7vw;
+    font-size: 2.5vw;
+    color: white;
+    font-family: "hola";
+}
+.ojo{
+    position: fixed;
+    width: 4vw;
+    height: 4vw;
+    margin: 19vw 0vw 0vw 10vw;
+
+}
+.persona{
+    position: fixed;
+    margin: 35vw 0vw 0vw 12vw;
+    width: 14vw;
+    height: 14vw;
+
+
+}
+.texto{
+    position: fixed;
+    margin: 35vw 0vw 0vw 80vw;
+    width: 14vw;
+    height: 14vw;
+
+}
+.telefono{
+    position: fixed;
+    margin: 35vw 0vw 0vw 48vw;
+    width: 14vw;
+    height: 14vw;
+
 }
