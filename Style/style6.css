@@ -5,11 +5,11 @@
     position: fixed;
 }
 
-.Container_Upperpart {
+.Grid_Backgorund_Container .Container_Upperpart {
     position: fixed;
 }
 
-.Añadir_cuadro{
+.Grid_Backgorund_Container .Añadir_cuadro{
     position: fixed;
     border: 0.1vw solid black;
     border-radius: 1vw;
@@ -19,7 +19,7 @@
     background-color: #E3854C;
     z-index: -1;
 }
-.Añadirtxt{
+.Grid_Backgorund_Container .Añadirtxt{
     margin:1.2vw 0vw 0vw 1.6vw;
     position: fixed;
     height: 1.6vw;
@@ -30,37 +30,291 @@
     text-align: center;
    }
 
-.Logo img{
+.Grid_Backgorund_Container .Logo img{
 height: 3vw;
 position: fixed;
 margin: 0.3vw 0vw 0vw 45vw;
 
 }
-.Pedro_img img{
+.Grid_Backgorund_Container .Pedro_img img{
     position: fixed;
     height: 3vw;
     margin: 0.4vw 0vw 0vw 96.2vw;
 
 
 }
-.Settings img{
+.Grid_Backgorund_Container .Settings img{
     position: fixed;
     height: 1.5vw;
     margin: 1.2vw 0vw 0vw 90vw;
 
 }
 
-.Noti img{
+.Grid_Backgorund_Container .Noti img{
     position: fixed;
     height: 1.5vw;
     margin: 1.2vw 0vw 0vw 93.5vw;
 
 
 }
-.Line p{
+.Grid_Backgorund_Container .Line {
     border: 1px solid black;
     position: fixed;
-    margin: 3.6vw 0vw 0vw -1vw;
-    width: 3vw;
-    height: 50vw;
+    margin: 3.6vw 0vw 0vw 0vw;
+    width: 100vw;
+
 }
+.Grid_Backgorund_Container .Paneltxt{
+    position: fixed;
+    font-size: 1.8vw;
+    margin: 3vw 0vw 0vw 40vw;
+}
+.Grid_Backgorund_Container .Cruz{
+    position: fixed;
+    font-size: 2vw;
+    margin: 4.8vw 0vw 0vw 80.4vw;
+    color: white;
+    z-index: +1;
+}
+.Grid_Backgorund_Container .Cruz_Circle{
+    position: fixed;
+    border: 1vw solid black;
+    border-radius: 60%;
+    margin: 5vw 0vw 0vw 80vw;
+}
+ .Elementostxt p{
+    position: fixed;
+    font-size: 1.2vw;
+    margin: 8.8vw 0vw 0vw 5.8vw ;
+    
+}
+
+.Cuadro_elementos{
+    border: 0.1vw solid black;
+    position: fixed;
+    border-radius: 3ch;
+    width: 15vw;
+    height: 2vw;
+    margin: 8.5vw 0vw 0vw 3vw;
+}
+.Fondo_Principal5-1{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 87vw;
+    font-size: 1vw;
+    height: 3.3vw;
+    margin: 17vw 0vw 0vw 1.6vw;
+    position: fixed;
+
+}
+
+
+
+.Fondo_Principal6-1{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 87vw;
+    height: 3.3vw;
+    margin: 22vw 0vw 0vw 1.7vw;
+    position: fixed;
+    font-size: 1vw;
+}
+.Fondo_Principal7-1{
+        border: 0.1vw solid black;
+        border-radius: 1.5vw;
+        width: 87vw;
+        font-size: 1vw;
+        height: 3.3vw;
+        margin:27vw 0vw 0vw 1.7vw;
+        position: fixed;
+    
+}
+.Fondo_Principal4{
+    font-size: 0.85vw;
+    font-weight: 700;
+    margin: 15vw 0vw 0vw 0vw;
+    position: fixed;
+
+}
+
+.juan1{
+    position: fixed;
+    margin: 1.2vw;
+    display: flex;
+}
+
+.p1{
+    display: flex;
+    position: fixed;
+}
+
+.Fondo_Principal9{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 87vw;
+    height: 3.3vw;
+    margin: 38vw 0vw 0vw 1.7vw;
+    position: fixed;
+    font-size: 1vw;
+}
+
+.Box1 input{
+ position: fixed;
+ display: flex;
+ height: 2vw;
+ width: 6vw;
+ margin: 0.6vw 0vw 0vw 1.6vw;
+ border-radius: 0.5vw;
+}
+.Fondo_Principal10{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Fondo_Principal11{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw 10vw;
+}
+.Box2 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 4.5vw 0vw 0vw 2vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal12{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box3 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 4.5vw 0vw 0vw 12vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal13{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box4 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 8.5vw 0vw 0vw 27.5vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal14{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box5 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 12.6vw 0vw 0vw 80vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal15{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box6 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 16.5vw 0vw 0vw 50vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal16{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box7 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 20.5vw 0vw 0vw 66vw;
+    border-radius: 0.5vw;
+   }
+
+   .Fondo_Principal17{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box8 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 24.5vw 0vw 0vw 81vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal18{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+.Box9 input{
+    position: fixed;
+    display: flex;
+    height: 2vw;
+    width: 6vw;
+    margin: 28.5vw 0vw 0vw 96vw;
+    border-radius: 0.5vw;
+   }
+   .Fondo_Principal19{
+    font-weight: 900;
+    font-size: 0.9vw;
+    position: fixed;
+    display: flex;
+    margin: -4vw 0vw 0vw -6vw;
+}
+
+.Subir button{
+    width: 13vw;
+    height: 5vh;
+    margin: 36vw 0vw 0vw 70vw;
+    position: fixed;
+    display: flex;
+    border-radius: 2ch;
+    align-items: center;
+    font-size: 1vw;
+    text-align: center;
+    background-color: #E3854C;
+    font-weight: 900;
+    color: white;
+    border-color: none;
+}
+ 

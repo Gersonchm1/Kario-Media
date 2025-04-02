@@ -79,7 +79,7 @@ body{
 .Logo2{
     width: 8vw;
     
-    margin: 20vw 0vw 0vw -9vw;
+    margin: 20vw 0vw 0vw 1vw;
     animation: logo2 5s;
     animation-iteration-count: 1;
     
@@ -100,7 +100,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 15vw 0vw 0vw 0vw;
+    margin: 12vw 0vw 0vw 0vw;
     overflow: hidden;
     animation: login2 10s;
     animation-iteration-count: 1;
@@ -157,7 +157,7 @@ body{
 
 } 
 .img2{
-    margin: -0.5vw 0vw 0vw 84.7vw;
+    margin: -0.8vw 0vw 0vw 84.7vw;
     position: fixed;
     width: 1.2vw;
     
@@ -191,9 +191,9 @@ body{
 
 }
 .img7{
-    margin: -0.5vw 0vw 0vw 86.5vw;
+    margin: -0.8vw 0vw 0vw 86.5vw;
     position: fixed;
-    width: 1.1vw;
+    width: 1.3vw;
 
 }
 .img8{
