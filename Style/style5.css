@@ -35,7 +35,7 @@ body{
 .img-5{ width: 2vw;
     height: 2vw;
      position: fixed;
-     margin: -0.5vw 0vw 0vw 46vw;
+     margin: -2vw 0vw 0vw 49vw;
 
 
 }
@@ -51,7 +51,6 @@ body{
     width: 60vw;
     height: 35vw;
     border-radius: 2vw;
-
     position: fixed;
     margin: 14vw  0vw 0vw 20vw;
 
@@ -76,11 +75,11 @@ body{
     margin: 1vw 0vw 0vw 6.2vw;
 
 }
-.l1{
+.l1 pre{
     font-size: 2vw;
     font-family: "hola";
     
-    margin: 1.2vw 0vw 0vw 19.5vw;
+    margin: 1.2vw 0vw 0vw 13.5vw;
 
 }
 .Blanquito{
@@ -92,7 +91,6 @@ body{
     margin: 24vw 0vw 0vw 30vw;
 }
 .Fondo_Principal10-1{
-    border: 0.1vw solid black;
     font-size: 1vw;
     font-weight: 700;
     font-family: "hola";
@@ -134,4 +132,152 @@ body{
 @font-face {
     font-family:"hola";
     src: url(../fonts/inria-sans.bold.ttf);
+}
+
+@media only screen and (max-width: 430px ) {
+    body{
+        background-color: white
+    }
+    .Principal{background-color: rgb(255, 255, 255);
+    
+    }
+    .img-1{ margin: -0.5vw 0vw 0vw 98vw;
+        position: fixed;
+        width: 2vw;
+        height: 2vw;
+    
+    }
+    .img-2{
+        margin: -0.5vw 0vw 0vw 5vw;
+        padding: 0;
+        width: 2vw;
+        height: 2vw;
+        
+    
+    }
+    .img-3{
+        margin: 0.3vw 0vw 0vw 88vw; 
+        position: fixed;
+        width: 1vw;
+        height: 1vw;
+    
+    }
+    .img-4{
+        margin: 0.3vw 0vw 0vw 89.5vw;
+        position: fixed;
+        width: 1vw;
+        height: 1vw;
+    
+    }
+    .img-5{ width: 2vw;
+        height: 2vw;
+         position: fixed;
+         margin: -2vw 0vw 0vw 49vw;
+    
+    
+    }
+    .menu{
+        border-bottom: 0.2vw solid black;
+        width: 1000vw;
+        margin:1vw 0vw 0vw 0vw;
+        position: fixed;
+        margin-left: -0.5vw;
+    }
+    .gris{
+        background-color: #C4C4C4C9;
+        width: 52vw;
+        height:47vw;
+        border: 1vw solid black;
+        border-radius: 6vw;
+    
+        position: fixed;
+        margin:90vw  0vw 0vw 20vw;
+        transform: scale(160%);
+    
+    }
+    .naranja{ background-color: #F5AB66;
+        position: fixed;
+        margin: 6vw  0vw 0vw 20vw;
+        width: 60vw;
+        height: 5vw;
+        border-radius: 2vw;
+    
+    }
+    .q1{
+        font-size: 3.5vw;
+        font-family: "hola";
+        width: 5vw;
+        margin: 0.7vw 0vw 0vw 8vw;
+    }
+    .j1{
+        font-size: 4.5vw;
+        font-family: "hola";
+        width: 5vw;
+    
+        margin: 3vw 0vw 0vw 4vw;
+    
+    }
+    .l1{
+        font-size: 2vw;
+        font-family: "hola";
+        
+        margin: 1.2vw 0vw 0vw 19.5vw;
+    
+    }
+    .Blanquito{
+        background-color: #FFF6F6;
+        width: 38vw;
+        height: 20vw;
+        position: fixed;
+        border-radius: 2vw;
+        margin: 24vw 0vw 0vw 30vw;
+    }
+    .Fondo_Principal10-1{
+        border: 0.1vw solid black;
+        font-size: 1vw;
+        font-weight: 700;
+        font-family: "hola";
+        
+        width: 9vw;
+        height: 0.4vw;
+        margin: 143vw 0vw 0vw 41vw;
+        
+        padding: 10px 2vw;
+        background-color: #F5AB66;
+        color: white;
+        border: none;
+        border-radius: 5vw;
+        cursor: pointer;
+        position: fixed;
+        transform: scale(150%);
+        
+        
+            
+        
+    
+    }
+    .Fondo_Principal10-1 pre{
+font-size: 2vw;
+margin: -0.2vw;
+color: black;
+font-weight: 900;
+    }
+    .Fondo_Principal10-1:hover {
+        background-color: #ca7d24;
+      }
+      .Fondo_Principal10-1:active {
+        background-color: #898681;
+      }
+    .b1{
+        position: fixed;
+        margin: 0.2vw 0vw 0vw 1.5vw;
+    }
+    .sonido{
+        width: 15vw;
+        height: 15vw;
+        margin: 27vw 0vw 0vw 81vw;
+        position: fixed;
+        transform: rotate(-30deg);
+    }
+    
 }

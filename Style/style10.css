@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu-main {
+    position: fixed;
+    left: 92%;
+}
+
+.image9 {
+    width: 2.5vw;
+    margin: 0.2vw 0 0 5vw;
+    cursor: pointer;
+}
+
+.menu-second {
+    display: none;
+    position: absolute;
+    background-color: #F97A2C;
+    border-radius: 5px;
+    margin-top: 3vh;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu-second ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-second ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    margin: 1vw 0;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-second ul a:hover {
+    background-color: #f1f1f1;
+    transform: translateX(5px);
+}
+
+/* Checkbox toggle */
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked + .menu-second {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Subir button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Subir button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .menu-main {
+        width: 6vw;
+    }
+
+    .menu-second ul a {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .image9 {
+        width: 3vw;
+    }
+}
