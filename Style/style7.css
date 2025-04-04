@@ -182,10 +182,13 @@ pre{
 
 }
 .img-2{
-    margin: -0.5vw 0vw 0vw 5vw;
+    display: flex;
+    margin: -4.5vw 0vw 0vw 200vw;
     padding: 0;
     width: 2vw;
     height: 2vw;
+    transform: scale(300%);
+    position: fixed;
     
 
 }
@@ -213,9 +216,10 @@ pre{
 .menu{
     border-bottom: 0.2vw solid black;
     width: 1000vw;
-    margin:1vw 0vw 0vw 0vw;
+    margin:25vw 0vw 0vw -30vw;
     position: fixed;
     margin-left: -0.5vw;
+    transform: scale(150%);
 }
 .gris{
     background-color: #ffffffc9;
@@ -231,37 +235,37 @@ pre{
     position: fixed;
     margin: 40vw  0vw 0vw -1.8vw;
     min-width: 100%;
-
+border: 0.3vw solid black;
     height: 60vw;
     
 
 }
 .q1{
-    font-size: 4.5vw;
+    font-size: 6vw;
     font-family: "hola";
     width: 5vw;
-    margin: 3vw 0vw 0vw 16.5vw;
+    margin: 8vw 0vw 0vw 7.5vw;
     position: fixed;
 }
 .p1{
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: "hola";
     width: 5vw;
-    margin: 14vw 0vw 0vw 52.5vw;
+    margin: -3vw 0vw 0vw 9.5vw;
     position: fixed;
 }
-.j1{font-size: 3vw;
+.j1{font-size: 5vw;
     font-family: "hola";
     width: 5vw;
-    margin: 14vw 0vw 0vw -10vw;
+    margin: -37vw 0vw 0vw -10vw;
     position: fixed;
 
 }
 .l1{
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: "hola";
-    
-    margin: 14vw 0vw 0vw 21.5vw;
+    font-weight: 900;
+    margin: -37vw 0vw 0vw 33.5vw;
     position: fixed;
 
 }
@@ -310,30 +314,33 @@ pre{
     position: fixed;
     width: 4vw;
     height: 4vw;
-    margin: 59vw 0vw 0vw 10vw;
-    transform: scale(150%);
+    margin: 75vw 0vw 0vw 8vw;
+    transform: scale(180%);
 
 }
 .persona{
     position: fixed;
-    margin: 35vw 0vw 0vw 12vw;
+    margin: 115vw 0vw 0vw 12vw;
     width: 14vw;
     height: 14vw;
+    transform: scale(150%);
 
 
 }
 .texto{
     position: fixed;
-    margin: 35vw 0vw 0vw 80vw;
+    margin: 147vw 0vw 0vw 40vw;
     width: 14vw;
     height: 14vw;
+    transform: scale(150%);
 
 }
 .telefono{
     position: fixed;
-    margin: 35vw 0vw 0vw 47vw;
+    margin: 115vw 0vw 0vw 62vw;
     width: 14vw;
     height: 14vw;
+    transform: scale(150%);
 
 }
 
