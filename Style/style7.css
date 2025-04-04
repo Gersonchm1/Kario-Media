@@ -162,4 +162,180 @@ pre{
     height: 14vw;
 
 }
+/*#############################
+#############################
+##############################
+################################
+##################################
+#################################*/
+@media only screen and (max-width: 431px)  {
+    body{
+    background-color: white
+}
+.Principal{background-color: rgb(255, 255, 255);
 
+}
+.img-1{ margin: -0.5vw 0vw 0vw 98vw;
+    position: fixed;
+    width: 2vw;
+    height: 2vw;
+
+}
+.img-2{
+    margin: -0.5vw 0vw 0vw 5vw;
+    padding: 0;
+    width: 2vw;
+    height: 2vw;
+    
+
+}
+.img-3{
+    margin: 0.3vw 0vw 0vw 88vw; 
+    position: fixed;
+    width: 1vw;
+    height: 1vw;
+
+}
+.img-4{
+    margin: 0.3vw 0vw 0vw 89.5vw;
+    position: fixed;
+    width: 1vw;
+    height: 1vw;
+
+}
+.img-5{ width: 2vw;
+    height: 2vw;
+     position: fixed;
+     margin: -2vw 0vw 0vw 48vw;
+
+
+}
+.menu{
+    border-bottom: 0.2vw solid black;
+    width: 1000vw;
+    margin:1vw 0vw 0vw 0vw;
+    position: fixed;
+    margin-left: -0.5vw;
+}
+.gris{
+    background-color: #ffffffc9;
+    width: 60vw;
+    height: 35vw;
+    border-radius: 2vw;
+
+    position: fixed;
+    margin: 170vw  0vw 0vw 15vw;
+
+}
+.naranja{ background-color: #A7B5C4;
+    position: fixed;
+    margin: 40vw  0vw 0vw -1.8vw;
+    min-width: 100%;
+
+    height: 60vw;
+    
+
+}
+.q1{
+    font-size: 4.5vw;
+    font-family: "hola";
+    width: 5vw;
+    margin: 3vw 0vw 0vw 16.5vw;
+    position: fixed;
+}
+.p1{
+    font-size: 3vw;
+    font-family: "hola";
+    width: 5vw;
+    margin: 14vw 0vw 0vw 52.5vw;
+    position: fixed;
+}
+.j1{font-size: 3vw;
+    font-family: "hola";
+    width: 5vw;
+    margin: 14vw 0vw 0vw -10vw;
+    position: fixed;
+
+}
+.l1{
+    font-size: 3vw;
+    font-family: "hola";
+    
+    margin: 14vw 0vw 0vw 21.5vw;
+    position: fixed;
+
+}
+.Blanquito{
+    background-color: #FFF6F6;
+    width: 48vw;
+    height: 6vw;
+    position: fixed;
+    
+    margin: 74vw 0vw 0vw 24vw;
+    transform: scale(185%);
+}
+
+.CuadroAzul{
+    background-color:#3362AE ;
+    position: fixed;
+    margin: 73vw 0vw 0vw 78vw;
+    width: 12vw;
+    height: 8vw;
+    transform: scale(150%);
+}
+.Fondo_Principal10-1:hover {
+    background-color: #ca7d24;
+  }
+  .Fondo_Principal10-1:active {
+    background-color: #f39d1d;
+  }
+.b1{
+    position: fixed;
+    margin: 0.2vw 0vw 0vw 1.5vw;
+}
+@font-face {
+    font-family:"hola";
+    src: url(../fonts/inria-sans.bold.ttf);
+}
+pre{
+    font-family: "hola"
+}
+.k1{
+    margin: 1.8vw 0vw 0vw -10vw;
+    font-size: 3.5vw;
+    color: white;
+    font-family: "hola";
+}
+.ojo{
+    position: fixed;
+    width: 4vw;
+    height: 4vw;
+    margin: 59vw 0vw 0vw 10vw;
+    transform: scale(150%);
+
+}
+.persona{
+    position: fixed;
+    margin: 35vw 0vw 0vw 12vw;
+    width: 14vw;
+    height: 14vw;
+
+
+}
+.texto{
+    position: fixed;
+    margin: 35vw 0vw 0vw 80vw;
+    width: 14vw;
+    height: 14vw;
+
+}
+.telefono{
+    position: fixed;
+    margin: 35vw 0vw 0vw 47vw;
+    width: 14vw;
+    height: 14vw;
+
+}
+
+
+}

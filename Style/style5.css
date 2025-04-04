@@ -141,23 +141,20 @@ body{
 .Circle2{
     display: none;
 }
-
-    .Rueda {
-        display: none; 
-        position: absolute; 
-        top: -9999px; 
-        left: -9999px;  
-        z-index: -1000; 
-    }
-    
-
+.Rueda{
+    display: none;
+    transform: scale(240%);
+    margin-left: -5vw;
+    height:11vw;
+margin: -4.5vw 0vw 0vw -12vw;
+}
 .Reportar_Circle{
-    display: flex;
+    display: none;
     transform: scale(50%);
     margin: -20vw;
 }
 .Reportar_Circle p{
-    display: flex;
+    display: none;
 }
 /*#######################*/
 /*#######################*/

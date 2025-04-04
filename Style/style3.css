@@ -12,11 +12,12 @@ body{
     margin: 25vw 0vw 0vw 47vw;
   }
   .cargando{ 
+    
     position: relative; 
     color: #000000;
-    margin-top: 2em;
+    margin-top: 6em;
     letter-spacing: 0.08em;
-    text-transform: uppercase
+    text-transform: uppercase;
   }
   
   .rueda {
@@ -101,3 +102,109 @@ body{
   
   
 
+@media only screen and (max-width: 431px){
+  body{
+    background-color: white;
+
+}
+#contenedor{ 
+    
+    display: grid;
+    place-content: center;
+    
+    color: #000;
+    position: fixed;
+    margin: 25vw 0vw 0vw 47vw;
+  }
+  .cargando{ 
+    position: relative; 
+    color: #000000;
+    margin-top: 2em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase
+  }
+  
+  .rueda {
+    border: 10px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border-left-color: transparent;
+    width: 80px;
+    height: 80px;
+    animation: giro 1s linear infinite;
+    margin: 85vw 0vw 0vw -10vw;
+  }
+  
+  @keyframes giro {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .cargando{ 
+    position: relative; 
+    
+    
+    
+    
+  }
+  
+  .rueda {
+    border: 10px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border-left-color: transparent;
+    width: 80px;
+    height: 80px;
+    animation: giro 1s linear infinite;
+  }
+  
+  @keyframes giro {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.img-1{
+    width: 50vw;
+    height: 12vw;
+    margin: 70vw 0vw 0vw 25vw;
+    position: fixed;
+    transform: scale(350%);
+
+}
+.pp{
+    font-size: 6vw;
+    margin: 140vw 0vw 0vw -25.5vw;
+    position: fixed;
+    font-weight: 900;
+
+}
+.cargando{
+    position: fixed;
+    margin: 0vw 0vw 0vw 0vw;
+}
+.container{   
+    display: grid;
+      place-content: center;
+      height: 100vh;
+      position: fixed;
+  }
+.cargando{
+      width: 2vw;
+      height: 4vw;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin: 0 auto; 
+      display: flex;
+      position: fixed;
+    
+  }
+  
+}

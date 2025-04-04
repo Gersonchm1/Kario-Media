@@ -486,3 +486,432 @@ margin: 0.3vw 0vw 0vw 45vw;
     position: fixed;
     width: 2.5vw;
 }
+@media only screen and (max-width: 431px) {
+    .Nuevo{
+        position: fixed;
+        font-size: 10vw;
+        background-color: blue;
+        z-index: 10000;
+    }
+}
+@media only screen and (max-width: 431px) {
+    .Fondo_Principal5-1{
+        display: none;
+        border: 0.1vw solid black;
+        border-radius: 1.5vw;
+        width: 87vw;
+        font-size: 1vw;
+        height: 3.3vw;
+        margin: 17vw 0vw 0vw 1.6vw;
+        position: fixed;
+    
+    }
+    
+    
+    
+    .Fondo_Principal6-1{
+        display: none;
+
+        border: 0.1vw solid black;
+        border-radius: 1.5vw;
+        width: 87vw;
+        height: 3.3vw;
+        margin: 22vw 0vw 0vw 1.7vw;
+        position: fixed;
+        font-size: 1vw;
+    }
+    .Fondo_Principal7-1{
+        display: none;
+
+            border: 0.1vw solid black;
+            border-radius: 1.5vw;
+            width: 87vw;
+            font-size: 1vw;
+            height: 3.3vw;
+            margin:27vw 0vw 0vw 1.7vw;
+            position: fixed;
+        
+    }
+    .Fondo_Principal4{
+        display: none;
+
+        font-size: 0.85vw;
+        font-weight: 700;
+        margin: 15vw 0vw 0vw 0vw;
+        position: fixed;
+    
+    }
+    
+    .juan1{
+        display: none;
+
+        position: fixed;
+        margin: 1.2vw;
+        display: flex;
+    }
+    .juan2{
+        display: none;
+
+        position: fixed;
+        margin: 1.2vw;
+        display: flex;
+    }
+    
+    
+    .juan3{
+        display: none;
+
+        position: fixed;
+        margin: 1.2vw;
+        display: flex;
+    }
+    
+    
+    
+    .p1{
+        display: none;
+
+        display: flex;
+        position: fixed;
+    }
+    
+    .Fondo_Principal9{
+        
+        border: 0.1vw solid black;
+        border-radius: 1.5vw;
+        width: 87vw;
+        height: 3.3vw;
+        margin: 38vw 0vw 0vw 1.7vw;
+        font-size: 1vw;
+        
+        
+    }
+    
+    .Box1 input{
+        display: none;
+
+     position: fixed;
+     display: flex;
+     height: 2vw;
+     width: 6vw;
+     margin: 0.6vw 0vw 0vw 1.6vw;
+     border-radius: 0.5vw;
+     display: none;
+
+    }
+    .Fondo_Principal10{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        display: none;
+
+    }
+    .Fondo_Principal11{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw 10vw;
+    }
+    .Box2 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 4.5vw 0vw 0vw 2vw;
+        border-radius: 0.5vw;
+       }
+       .Fondo_Principal12{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        display: none;
+    }
+    .Box3 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 4.5vw 0vw 0vw 12vw;
+        border-radius: 0.5vw;
+        display: none;
+       }
+       .Fondo_Principal13{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+    }
+    .Box4 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 8.5vw 0vw 0vw 27.5vw;
+        border-radius: 0.5vw;
+        display: none;
+       }
+       .Fondo_Principal14{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+    }
+    .Box5 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 12.6vw 0vw 0vw 80vw;
+        border-radius: 0.5vw;
+        display: none;
+       }
+       .Fondo_Principal15{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+    }
+    .Box6 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 16.5vw 0vw 0vw 50vw;
+        border-radius: 0.5vw;
+        display: none;
+       }
+       .Fondo_Principal16{
+        display: none;
+
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        
+    }
+    .Box7 input{
+        display: none;
+
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 20.5vw 0vw 0vw 66vw;
+        border-radius: 0.5vw;
+        display: none;
+
+       }
+    
+       .Fondo_Principal17{
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        
+    }
+    .Box8 input{
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 24.5vw 0vw 0vw 81vw;
+        border-radius: 0.5vw;
+        display: none;
+
+       }
+       .Fondo_Principal18{
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        
+    }
+    .Box9 input{
+        position: fixed;
+        display: flex;
+        height: 2vw;
+        width: 6vw;
+        margin: 28.5vw 0vw 0vw 96vw;
+        border-radius: 0.5vw;
+        display: none;
+
+       }
+       .Fondo_Principal19{
+        font-weight: 900;
+        font-size: 0.9vw;
+        position: fixed;
+        display: flex;
+        margin: -4vw 0vw 0vw -6vw;
+        display: none;
+        
+    
+    .Subir button{
+        width: 13vw;
+        height: 5vh;
+        margin: 36vw 0vw 0vw 70vw;
+        position: fixed;
+        display: flex;
+        border-radius: 2ch;
+        align-items: center;
+        font-size: 1vw;
+        text-align: center;
+        background-color: #E3854C;
+        font-weight: 900;
+        color: white;
+        border-color: none;
+        display: none;
+
+    }
+    .circulo1{
+        width: 2.5vw;
+        height: 4.0vh;
+        
+        border-radius: 50%;
+        background: conic-gradient(red 31%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+       
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -0.5vw 0vw 0vw 0.5vw ;
+        display: none;
+
+        
+    }
+    .circuloadentro{
+        width: 1.7vw;
+        height: 3vh;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        display: none;
+
+    }
+    .circulo2{
+        width: 2.5vw;
+        height: 4vh;
+        
+        border-radius: 50%;
+        background: conic-gradient(red 25%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -0.5vw 0vw 0vw 0vw ;
+        display: none;
+
+        
+    }
+    .circulo3{
+        width: 2.5vw;
+        height: 4vh;
+       
+        border-radius: 50%;
+        background: conic-gradient(lime 80%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -0.5vw 0vw 0vw 0.4vw ;
+        display: none;
+
+        
+    }
+    .circulo4 {
+        width: 2.5vw;
+        height: 4vh;
+       
+        border-radius: 50%;
+        background: conic-gradient(red 32%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -2.1vw 0vw 0vw 72vw ;
+        
+       
+    }
+    .circulo5 {
+        width: 2.5vw;
+        height: 4vh;
+        
+        border-radius: 50%;
+        background: conic-gradient(lime 95%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -2.1vw 0vw 0vw 72vw ;
+        
+    }
+    .circulo6 {
+        width: 2.5vw;
+        height: 4vh;
+        
+        border-radius: 50%;
+        background: conic-gradient(yellow 75%, lightgray 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        position: fixed;
+        margin: -2.1vw 0vw 0vw 72vw ;
+        
+    }
+}
+}
