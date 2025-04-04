@@ -61,6 +61,7 @@ body{
     width: 60vw;
     height: 5vw;
     border-radius: 2vw;
+    z-index: 7;
 
 }
 .q1{
@@ -129,10 +130,41 @@ body{
     position: fixed;
     transform: rotate(-30deg);
 }
+
 @font-face {
     font-family:"hola";
     src: url(../fonts/inria-sans.bold.ttf);
 }
+.Circle1{
+    display: none;
+}
+.Circle2{
+    display: none;
+}
+
+    .Rueda {
+        display: none; 
+        position: absolute; 
+        top: -9999px; 
+        left: -9999px;  
+        z-index: -1000; 
+    }
+    
+
+.Reportar_Circle{
+    display: flex;
+    transform: scale(50%);
+    margin: -20vw;
+}
+.Reportar_Circle p{
+    display: flex;
+}
+/*#######################*/
+/*#######################*/
+/*#######################*/
+/*#######################*/
+/*#######################*/
+/*#######################*/
 
 @media only screen and (max-width: 430px ) {
     body{
@@ -145,69 +177,77 @@ body{
         position: fixed;
         width: 2vw;
         height: 2vw;
+        margin: -5vw 0vw 0vw 226vw;
+        transform: scale(450%);
+
     
     }
-    .img-2{
-        margin: -0.5vw 0vw 0vw 5vw;
-        padding: 0;
+    .img-2 {
+        margin: -31vw 0vw 0vw 185vw;
+        margin-bottom: 6vw;
         width: 2vw;
         height: 2vw;
-        
+        transform: scale(250%);
     
     }
     .img-3{
-        margin: 0.3vw 0vw 0vw 88vw; 
+        margin: -3vw 0vw 0vw 26vw; 
         position: fixed;
         width: 1vw;
         height: 1vw;
+        transform: scale(350%);
     
     }
     .img-4{
-        margin: 0.3vw 0vw 0vw 89.5vw;
+        margin: -3vw 0vw 0vw 32vw;
         position: fixed;
         width: 1vw;
         height: 1vw;
+        transform: scale(350%);
     
     }
-    .img-5{ width: 2vw;
+    .img-5{ 
+        width: 2vw;
         height: 2vw;
          position: fixed;
-         margin: -2vw 0vw 0vw 49vw;
+         margin: -9vw 0vw 0vw 200vw;
+         transform: scale(350%);
     
     
     }
     .menu{
         border-bottom: 0.2vw solid black;
         width: 1000vw;
-        margin:1vw 0vw 0vw 0vw;
+        margin:20vw 0vw 0vw 0vw;
         position: fixed;
         margin-left: -0.5vw;
+        transform: scale(150%);
     }
     .gris{
         background-color: #C4C4C4C9;
         width: 52vw;
         height:47vw;
-        border: 1vw solid black;
+        border: 0.5vw solid black;
         border-radius: 6vw;
-    
         position: fixed;
-        margin:90vw  0vw 0vw 20vw;
+        margin:75vw  0vw 0vw 20vw;
         transform: scale(160%);
     
     }
     .naranja{ background-color: #F5AB66;
         position: fixed;
-        margin: 6vw  0vw 0vw 20vw;
-        width: 60vw;
-        height: 5vw;
+        margin: 34vw  0vw 0vw 25vw;
+        width: 45vw;
+        height: 6vw;
         border-radius: 2vw;
+        transform: scale(190%);
     
     }
     .q1{
-        font-size: 3.5vw;
+        font-size: 3vw;
         font-family: "hola";
         width: 5vw;
-        margin: 0.7vw 0vw 0vw 8vw;
+        margin: 1.5vw 0vw 0vw -0.3vw;
     }
     .j1{
         font-size: 4.5vw;
@@ -221,26 +261,28 @@ body{
         font-size: 2vw;
         font-family: "hola";
         
-        margin: 1.2vw 0vw 0vw 19.5vw;
+        margin: 5vw 0vw 0vw 16.5vw;
     
     }
     .Blanquito{
         background-color: #FFF6F6;
-        width: 38vw;
+        width: 70vw;
         height: 20vw;
         position: fixed;
-        border-radius: 2vw;
-        margin: 24vw 0vw 0vw 30vw;
+        border-radius: 6vw;
+        margin:90vw 0vw 0vw 12vw;
+        color: white;
+
     }
     .Fondo_Principal10-1{
-        border: 0.1vw solid black;
+        border: 1vw solid black;
         font-size: 1vw;
         font-weight: 700;
         font-family: "hola";
         
         width: 9vw;
         height: 0.4vw;
-        margin: 143vw 0vw 0vw 41vw;
+        margin: 120vw 0vw 0vw 41vw;
         
         padding: 10px 2vw;
         background-color: #F5AB66;
@@ -250,7 +292,7 @@ body{
         cursor: pointer;
         position: fixed;
         transform: scale(150%);
-        
+        border: 1px solid black;
         
             
         
@@ -260,7 +302,7 @@ body{
 font-size: 2vw;
 margin: -0.2vw;
 color: black;
-font-weight: 900;
+font-weight: bold;
     }
     .Fondo_Principal10-1:hover {
         background-color: #ca7d24;
@@ -268,16 +310,80 @@ font-weight: 900;
       .Fondo_Principal10-1:active {
         background-color: #898681;
       }
-    .b1{
+    .b1 {
         position: fixed;
         margin: 0.2vw 0vw 0vw 1.5vw;
+    
     }
     .sonido{
         width: 15vw;
         height: 15vw;
-        margin: 27vw 0vw 0vw 81vw;
+        margin: 175vw 0vw 0vw 3vw;
         position: fixed;
         transform: rotate(-30deg);
+    }
+    
+}
+.Rueda {
+    display: block; 
+    position: fixed; 
+    top: 17%;
+    left: 93%;
+    z-index: 1000;
+    transform: scale(60%);
+    
+}
+.Faqs img{
+    display: block;
+    transform: scale(50%);
+    position: fixed;
+    bottom: -10vw; 
+    right: -25vw;  
+    z-index: 1000; 
+    border: 1vw solid black;  
+    border-width: 1vw;
+}
+.Circle1 {
+    display: block; 
+    width: 5vw;
+    height: 5vw;
+    background-color: #FFF8DB;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 120vw; 
+    left: 120vw;   
+    transform: scale(1750%);
+    z-index: -10001;
+}
+.Circle2 {
+    display: block; 
+    width: 5vw;
+    height: 5vw;
+    background-color: #FFF8DB;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0.1vw; 
+    left: -25vw;   
+    transform: scale(1250%);
+    z-index: -10001;
+}
+.Reportar_Circle{
+    display: block;
+    position: fixed;
+    width: 20vw;
+    height: 8vw;
+    border-radius: 50ch;
+    background-color: #E3854C;
+    margin: 1vw;
+    margin-top: 10vw;
+}
+.Reportar_Circle p{
+    display: block;
+margin: 1.5vw 0vw 0vw 3vw;
+}
+@media only screen and (min-width: 431px) {
+    .Faqs{
+        display: none;
     }
     
 }
